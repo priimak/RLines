@@ -1,0 +1,13 @@
+[package]
+name = "RLines"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "lines"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.37.0"
+egui = "0.37.0"
+fastrand = "2.0"
